@@ -1,0 +1,21 @@
+:root{
+    --text-function: green;
+    --text1: red;
+    --text2: orange;
+    --text3: yellow;
+}
+
+h1{
+    color: var(--text-function) !important;
+    color: var(--text1);
+}
+
+h2{
+    color: var(--text-function) !important;
+    color: var(--text2)
+}
+
+h3{
+    color: var(--text-function);
+    color: var(--text3) !important;
+}
